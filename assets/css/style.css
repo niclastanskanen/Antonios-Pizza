@@ -33,3 +33,15 @@ body {
     position: sticky;
     top: 0;
   }
+
+
+/* navigation links */
+#menu {
+    font-size: 110%;  
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
