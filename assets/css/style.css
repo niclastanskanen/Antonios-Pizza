@@ -121,6 +121,7 @@ body {
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 30px;
 }
 
 
@@ -137,7 +138,7 @@ body {
 
 }
 */
-/* paralaxx scrolling effect */
+/* paralaxx scrolling effect code from w3schools */
 #about-us {
     background-image: url('../images/pizza_oven.jpeg');
     min-height: 400px;
@@ -145,12 +146,36 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
+#about-us div {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 400px;
+    text-align: center;
+    padding: 5%;
+    
+}
 
+/* Reviews */
 
+.grid-reviews {
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 30px;
+}
 
-
+#reviews-box {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
 
 
 
@@ -162,3 +187,4 @@ body {
     .grid-even-columns {
         grid-template-columns: repeat(1, 1fr);
      }
+    }
