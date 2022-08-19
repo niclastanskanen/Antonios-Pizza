@@ -98,16 +98,24 @@ body {
 
 .menu-info {
     text-align: center;
-    padding-top: 20px;
-    
-    
+    padding-top: 20px;    
 }
 
 .menu-big {
     font-size: 200%;
 }
 
-p span {
-    color: #989898;
-    
+.silver {
+    color: #989898;    
+}
+
+.text-size {
+    font-size: 200%;
+}
+
+.grid-even-columns {
+    text-align: center;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
