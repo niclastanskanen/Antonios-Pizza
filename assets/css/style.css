@@ -160,27 +160,20 @@ body {
 /* Reviews */
 
 .grid-reviews {
-    text-align: center;
-    padding-top: 40px;
-    padding-left: 10%;
-    padding-right: 10%;
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(3, 1fr);
-    padding-bottom: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 40px;
 }
 
-#reviews-box {
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+.grid-cal-2 {
+    grid-column: span 3;
 }
 
 
-
-
-
+.text-center {
+    text-align: center;
+}
 
 /* For medium screen size from 950px wide and down*/
 @media screen and (max-width: 950px) {
