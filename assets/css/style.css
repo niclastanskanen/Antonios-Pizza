@@ -155,8 +155,7 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
     height: 400px;
     text-align: center;
-    padding: 5%;
-    
+    padding: 5%;  
 }
 
 /* Reviews */
@@ -167,6 +166,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     padding-left: 40px;
     padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .grid-cal-2 {
@@ -178,9 +178,54 @@ body {
     text-align: center;
 }
 
+
+
+
+/* Facebook button */
+
+.sec-facebook {
+    background-color: #fff;  
+    padding-top: 40px;     
+}
+
+.div-facebook {
+    text-align: center;
+}
+
+#facebook {
+    background: #3b5998;
+    color: #fff;
+    font-size: 26px;
+    cursor: pointer; 
+    text-decoration: none;
+}
+
+
+/* three pictures */
+
+#three-picture {
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 30px;
+}
+
+#three-picture > img {
+   height: 300px;
+   width: 300px;
+   position: relative;
+}
+
+
+
 /* For medium screen size from 950px wide and down*/
 @media screen and (max-width: 950px) {
-    .grid-even-columns {
+    .grid-even-columns, #three-picture {
         grid-template-columns: repeat(1, 1fr);
      }
     }
+
