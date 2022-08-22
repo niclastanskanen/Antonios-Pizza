@@ -110,7 +110,8 @@ h1, h2 {
 }
 
 .silver {
-    color: #989898;    
+    color: #989898;
+    font-size: small;
 }
 
 .text-size {
@@ -138,6 +139,7 @@ h1, h2 {
     background-repeat: no-repeat;
     background-size: cover;
     
+    
 }
 
 #about-us div {
@@ -157,10 +159,11 @@ h1, h2 {
     padding-right: 10%;
     padding-top: 20px;
     padding-bottom: 40px;
+    border-style: dashed;
 }
 
 .grid-cal-2 {
-    grid-column: span 3;
+    grid-column: span 3; 
 }
 
 
