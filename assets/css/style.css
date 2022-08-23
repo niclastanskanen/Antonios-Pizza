@@ -76,7 +76,7 @@ h1, h2 {
 }
 
 #hero-image {
-    background: url('../images/header-background.png') no-repeat center center;
+    background: url('../images/header-background.webp') no-repeat center center;
     background-size: cover;
     }
 
@@ -123,7 +123,7 @@ h1, h2 {
 
 .grid-even-columns {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 10%;
     padding-right: 10%;
     display: grid;
@@ -138,7 +138,7 @@ h1, h2 {
 /* about us */
 /* paralaxx scrolling effect code from w3schools */
 #about-us {
-    background-image: url('../images/pizza_oven.jpeg');
+    background-image: url('../images/pizza_oven.webp');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -382,7 +382,7 @@ span {
      }
 
      #about-us {
-        background-image: url('../images/pizza_oven.jpeg');
+        background-image: url('../images/pizza_oven.webp');
         background-attachment: inherit;
         background-position: center;
         background-repeat: no-repeat;
