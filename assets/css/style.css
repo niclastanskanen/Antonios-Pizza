@@ -21,7 +21,7 @@ h1, h2 {
 /* headings and logo */
 
 #logo {
-    
+    font-family: 'Eczar', serif; 
     font-weight: 600;
     float: left;
     margin-left: 30px;
@@ -44,6 +44,10 @@ h1, h2 {
 
 #navbar, #logo {
     line-height: 75px; 
+}
+
+#logo {
+    font-family: 'Eczar', serif; 
 }
 
 #navbar li {
@@ -240,8 +244,14 @@ h1, h2 {
 
 
 /* footer and copyright */
-
+/*
 #bold {
+    font-family: 'Eczar', serif; 
+    font-weight: 700;
+}
+*/
+
+span {
     font-family: 'Eczar', serif; 
     font-weight: 700;
 }
@@ -317,6 +327,7 @@ h1, h2 {
 @media screen and (max-width: 750px) {
 
     #logo {
+        font-family: 'Eczar', serif; 
         font-weight: 600;
         text-align: center;
         color: #000;
