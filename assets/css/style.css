@@ -159,7 +159,6 @@ h1, h2 {
     padding-right: 10%;
     padding-top: 20px;
     padding-bottom: 40px;
-    border-style: dashed;
 }
 
 .grid-cal-2 {
@@ -176,12 +175,10 @@ h1, h2 {
 
 .sec-facebook {
     background-color: #fff;  
-    padding-top: 40px;     
+    padding-top: 30px;   
+    text-align: center;  
 }
 
-.div-facebook {
-    text-align: center;
-}
 
 #facebook {
     background: #3b5998;
@@ -190,6 +187,7 @@ h1, h2 {
     cursor: pointer; 
     text-decoration: none;
     display: inline-block;
+    width: 400px;
 }
 
 
