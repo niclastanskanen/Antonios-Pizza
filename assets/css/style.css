@@ -34,6 +34,7 @@ h1, h2 {
     text-transform: capitalize;
     position: sticky;
     top: 0;
+    
   } 
 
 
@@ -257,25 +258,15 @@ h1, h2 {
     background: #f97f00;
     height: 100px;
     color: #fff;
-    
     text-align: center;
 }
 
 .footer-contact, p > a {
     text-decoration: none;
     color: #fff;
-    
 }
 
 
-#grid-footer-contact {
-    text-align: center;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(3, 1fr);
-    
-    
-}
 
 
 #copyright {
