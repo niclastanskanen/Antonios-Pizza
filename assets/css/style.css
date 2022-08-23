@@ -32,36 +32,36 @@ h1, h2 {
 
   .header {
     text-transform: capitalize;
+    position: -webkit-sticky; 
     position: sticky;
     top: 0;
-    
   } 
 
 
 
 /* navigation links */
 
-#menu {
-    font-size: 110%;  
-}
+#navbar {
+    font-size: 110%;
+    }
 
-#menu, #logo {
+#navbar, #logo {
     line-height: 75px;
     
 }
 
-#menu li {
+#navbar li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
 
-#menu a {
+#navbar a {
     text-decoration: none;
     color: #000;
 }
 
-#menu a:hover {
+#navbar a:hover {
     color: #989898;
 }
 
@@ -211,13 +211,7 @@ h1, h2 {
     width: 100%;
     height: 100%;
 }
-/*
-#three-picture > img {
-    height: 300px;
-    width: 300px;
-   position: relative;
-}
-*/
+
 
 /* Contact */
 
