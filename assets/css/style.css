@@ -112,6 +112,10 @@ h1, h2 {
     font-size: 200%;
 }
 
+.item {
+    margin: 20px;
+}
+
 .silver {
     font-family: 'Montserrat', sans-serif;
     color: #989898;
