@@ -32,7 +32,6 @@ h1, h2 {
 
   .header {
     text-transform: capitalize;
-    position: -webkit-sticky; 
     position: sticky;
     top: 0;
   } 
@@ -128,6 +127,7 @@ h1, h2 {
     gap: 1rem;
     grid-template-columns: repeat(4, 1fr);
     padding-bottom: 30px;
+    justify-content: center;
 }
 
 
@@ -140,8 +140,6 @@ h1, h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
 }
 
 #about-us div {
@@ -149,7 +147,7 @@ h1, h2 {
     block-size: auto;
     text-align: center;
     padding: 5%;  
-    display: grid;
+    
     
 }
 
@@ -222,7 +220,7 @@ h1, h2 {
     color: #000;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
+    gap: 1rem  
 }
 
 #contact {
@@ -236,8 +234,8 @@ h1, h2 {
 }
 
 #google-map {
-    padding-right: 150px;
     padding-bottom: 20px;
+    
 }
 
 
@@ -266,6 +264,7 @@ h1, h2 {
     background: #fff;
     text-align: center;
     color: #000;
+    font-size: smaller;
     
 }
 
@@ -273,8 +272,13 @@ h1, h2 {
 
 /* For medium screen size from 950px wide and down*/
 @media screen and (max-width: 950px) {
-    .grid-even-columns, #three-picture {
-        grid-template-columns: repeat(1, 1fr);
+    
+    .grid-even-columns {
+        grid-template-columns: repeat(2, 1fr);
+     }
+
+     #three-picture {
+        grid-template-columns: repeat(3, 1fr);
      }
 
      .contact {
@@ -305,6 +309,33 @@ h1, h2 {
                 text-decoration: none;
                 width: 300px;
                 
-            }
+            }     
         }
 
+
+
+        /* For medium screen size from 750px wide and down*/
+@media screen and (max-width: 750px) {
+
+    .grid-even-columns {
+        grid-template-columns: repeat(1, 1fr);
+     }
+
+     #three-picture {
+        grid-template-columns: repeat(1, 1fr);
+     }
+
+     #three-picture  > img {
+        height: fit-content;
+     }
+
+     #about-us {
+        background-image: url('../images/pizza_oven.jpeg');
+        background-attachment: inherit;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+}
