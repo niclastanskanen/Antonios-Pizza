@@ -161,7 +161,7 @@ h2 {
 
 /* about us */
 /* paralaxx scrolling effect code from w3schools */
-#about-us {
+#about {
     background-image: url('../images/pizza_oven.webp');
     background-attachment: fixed;
     background-position: center;
@@ -169,7 +169,7 @@ h2 {
     background-size: cover;
 }
 
-#about-us div {
+#about div {
     background-color: rgba(0, 0, 0, 0.6);
     block-size: auto;
     text-align: center;
