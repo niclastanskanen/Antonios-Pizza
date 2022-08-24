@@ -105,6 +105,7 @@ h2 {
 
 #hero-text {
     text-align: center;
+    padding: 5%;
 }
 
 #hero-text-style-1 {
@@ -489,7 +490,14 @@ p>a {
 
 @media (max-width: 500px) {
     
-  
+    #hero-text-style-1 {
+        font-size: 200%;
+    }
+
+    #hero-text-style-2 {
+        font-size: 150%;
+    }
+
     .navbar .menu-items li{
         font-size: 1.6rem;
     }
