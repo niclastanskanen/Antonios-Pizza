@@ -475,7 +475,7 @@ p>a {
     }
 
     #three-picture>img {
-        height: 100%;
+        height: 245px;
         width: 100%;
     }
 
@@ -515,5 +515,9 @@ p>a {
         margin-bottom: 2rem;
         font-size: 1.8rem;
         font-weight: 500;
+    }
+
+    .grid-cal-2 {
+        text-align: center;
     }
 }
