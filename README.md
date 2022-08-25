@@ -4,6 +4,8 @@ Antonio's Pizza is a single scrolling page website that depicts the authentic me
 
 Users of this website will quickly and easily find the menu well sorted with ingredients and price. Visitors also get to see a glimpse of what the food looks like. You can also read a little about them. A map and contact details are also available so that visitors can find their way there on their own or call/email if they have any questions.
 
+The live link can be found here - [Antonio's pizza](https://niclastanskanen.github.io/Antonios-Pizza/)
+
 ![Responsice Mockup](./documentation/README_images/mockups.png)
 
 ## Features 
@@ -97,10 +99,10 @@ Users of this website will quickly and easily find the menu well sorted with ing
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fniclastanskanen.github.io%2FProject1%2F)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fniclastanskanen.github.io%2FAntonios-Pizza%2F)
 
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fniclastanskanen.github.io%2FProject1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fniclastanskanen.github.io%2FAntonios-Pizza%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
   - Lighthouse in devtools ![lighthouse](./documentation/README_images/lighthouse.png)
 
@@ -117,7 +119,7 @@ N/A - No unfixed bugs.
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://niclastanskanen.github.io/Project1/
+The live link can be found here - [Antonio's pizza](https://niclastanskanen.github.io/Antonios-Pizza/)
 
 ## Credits 
 
